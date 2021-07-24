@@ -6,7 +6,7 @@ function ちょうおんぱできょりをはかる () {
 }
 pins.digitalWritePin(DigitalPin.P2, 0)
 music.playTone(523, music.beat(BeatFraction.Sixteenth))
-basic.pause(100)
+basic.pause(500)
 servos.P0.setAngle(180)
 basic.pause(500)
 basic.forever(function () {
